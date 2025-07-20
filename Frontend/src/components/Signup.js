@@ -22,7 +22,7 @@ function Signup(props) {
 
     try {
       const response = await fetch(
-        "http://localhost:4000/api/auth/createuser",
+        "https://notehere-backend.onrender.com/api/auth/createuser",
         {
           method: "POST",
           headers: {

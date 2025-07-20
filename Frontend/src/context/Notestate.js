@@ -3,7 +3,7 @@ import Newcontext from "./Notescontext";
 
 function Newstate({ children, showAlert }) {
   
-  const host = "http://localhost:4000";
+  const host = "https://notehere-backend.onrender.com";
   const noteInitial = [];
   const [notes, setNotes] = useState(noteInitial);
 
